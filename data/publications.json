@@ -1,0 +1,30 @@
+{
+  "highlight_author": "Your Name",
+  "publications": [
+    {
+      "title": "A Descriptive Title of Your Most Recent Paper",
+      "authors": ["Your Name", "Coauthor One", "Coauthor Two"],
+      "venue": "Journal or Conference Name, 2026",
+      "year": 2026,
+      "badge": "Oral",
+      "thumb": "",
+      "links": { "PDF": "#", "arXiv": "#", "Code": "#", "DOI": "#" }
+    },
+    {
+      "title": "An Earlier Paper With a Slightly Longer Title to Show Wrapping Behavior",
+      "authors": ["Coauthor One", "Your Name", "Coauthor Three"],
+      "venue": "Journal or Conference Name, 2025",
+      "year": 2025,
+      "thumb": "",
+      "links": { "PDF": "#", "DOI": "#" }
+    },
+    {
+      "title": "A First-Author Paper From Earlier in the Program",
+      "authors": ["Your Name", "Advisor Name"],
+      "venue": "Workshop or Journal Name, 2024",
+      "year": 2024,
+      "thumb": "",
+      "links": { "PDF": "#" }
+    }
+  ]
+}

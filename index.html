@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name — Research Profile</title>
+  <meta name="description" content="Research profile of Your Name: bio, publications, and contact.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="layout">
+
+  <aside class="sidebar">
+    <img class="avatar" src="assets/img/profile.jpg" alt="Portrait of Your Name"
+         onerror="this.onerror=null;this.src='assets/img/placeholder.svg'">
+    <h1 class="name">Your Name</h1>
+    <p class="role">PhD Candidate / Postdoctoral Researcher</p>
+    <p class="affil">Department of Something<br>University Name</p>
+
+    <ul class="links">
+      <li><a href="mailto:changresearchdr@gmail.com">Email</a></li>
+      <li><a href="https://scholar.google.com/citations?user=XXXX" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">ORCID</a></li>
+      <li><a href="https://github.com/yourhandle" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="assets/cv.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <nav class="topnav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+    </nav>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a researcher working on <em>[your broad area]</em>. My work focuses on
+        <em>[one-sentence summary of your research question]</em>. I am currently
+        <em>[position]</em> at <em>[institution]</em>, advised by <em>[advisor]</em>.
+      </p>
+      <p>
+        Before this, I completed my <em>[degree]</em> in <em>[field]</em> at <em>[institution]</em>.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research interests</h2>
+      <ul class="interests">
+        <li><strong>Topic one.</strong> One line on what you study and why it matters.</li>
+        <li><strong>Topic two.</strong> One line on what you study and why it matters.</li>
+        <li><strong>Topic three.</strong> One line on what you study and why it matters.</li>
+      </ul>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news" id="news-list"></ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="muted">Selected works. <a href="https://scholar.google.com/citations?user=XXXX" target="_blank" rel="noopener">Full list on Google Scholar</a>.</p>
+      <div id="pub-list"></div>
+      <noscript><p class="muted">Enable JavaScript to view the publication list, or see <a href="data/publications.json">the raw data</a>.</p></noscript>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching &amp; service</h2>
+      <ul class="plain">
+        <li>Teaching assistant, <em>Course Name</em>, University Name, Fall 2025.</li>
+        <li>Reviewer: <em>Conference or Journal</em>.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Your Name. Built with plain HTML and hosted on GitHub Pages.</p>
+    </footer>
+  </main>
+</div>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
