@@ -85,6 +85,7 @@ p { margin: 0 0 0.9rem; }
 .news { list-style: none; padding: 0; margin: 0; }
 .news li { display: grid; grid-template-columns: 6.5rem 1fr; gap: 0.75rem; margin-bottom: 0.5rem; }
 .news time { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 0.95rem; }
+.timeline li { grid-template-columns: 8.5rem 1fr; }
 
 footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
 
