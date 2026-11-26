@@ -8,8 +8,6 @@
   { "date": "Feb 2026", "text": "Named a Featured Mentor of the MIT Undergraduate Research Opportunities Program." },
   { "date": "Dec 2025", "text": "Our paper on AI-driven segmentation of LiDAR data in informal settlements is published in <em>npj Urban Sustainability</em>." },
   { "date": "Oct 2025", "text": "Best Presentation Nomination Award at the 5th Digital Twin International Conference, Germany." },
-  { "date": "Jul 2025", "text": "Invited talk on AI-based building damage estimation after natural disasters at the International Symposium on Climate-Responsive Urban Design and Governance." },
-  { "date": "Dec 2024", "text": "Presented our work on monitoring the inward and outward expansion of informal settlements in Brazil at the AGU Annual Meeting, Washington, D.C." },
-  { "date": "Jul 2024", "text": "Joined the MIT Senseable City Lab as a Postdoctoral Fellow." },
+  { "separator": true },
   { "date": "Feb 2024", "text": "Received the Geospatial Excellence Award from the Geospatial Council of Australia and completed my Ph.D. at UNSW." }
 ]

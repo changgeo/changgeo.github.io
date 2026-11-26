@@ -9,7 +9,10 @@
   const newsList = document.getElementById("news-list");
   if (newsList) {
     fetch("data/news.json").then((r) => r.json()).then((items) => {
-      newsList.innerHTML = items.map((n) => `<li><time>${esc(n.date)}</time><span>${n.text}</span></li>`).join("");
+      // An item of the form { "separator": true } draws a "⋯" row, marking skipped time between entries.
+      newsList.innerHTML = items.map((n) => n.separator
+        ? `<li class="news-sep" aria-label="earlier items omitted"><time>&#8943;</time><span></span></li>`
+        : `<li><time>${esc(n.date)}</time><span>${n.text}</span></li>`).join("");
     }).catch(() => {});
   }
 })();
