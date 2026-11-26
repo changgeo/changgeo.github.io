@@ -1,9 +1,9 @@
 {
-  "highlight_author": "Your Name",
+  "highlight_author": "Chang Liu",
   "publications": [
     {
       "title": "A Descriptive Title of Your Most Recent Paper",
-      "authors": ["Your Name", "Coauthor One", "Coauthor Two"],
+      "authors": ["Chang Liu", "Coauthor One", "Coauthor Two"],
       "venue": "Journal or Conference Name, 2026",
       "year": 2026,
       "badge": "Oral",
@@ -12,7 +12,7 @@
     },
     {
       "title": "An Earlier Paper With a Slightly Longer Title to Show Wrapping Behavior",
-      "authors": ["Coauthor One", "Your Name", "Coauthor Three"],
+      "authors": ["Coauthor One", "Chang Liu", "Coauthor Three"],
       "venue": "Journal or Conference Name, 2025",
       "year": 2025,
       "thumb": "",
@@ -20,7 +20,7 @@
     },
     {
       "title": "A First-Author Paper From Earlier in the Program",
-      "authors": ["Your Name", "Advisor Name"],
+      "authors": ["Chang Liu", "Advisor Name"],
       "venue": "Workshop or Journal Name, 2024",
       "year": 2024,
       "thumb": "",
