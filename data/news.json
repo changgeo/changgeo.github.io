@@ -1,5 +1,12 @@
 [
-  { "date": "Nov 2026", "text": "Paper accepted at <em>Venue 2026</em>." },
-  { "date": "Sep 2026", "text": "Started as <em>position</em> at <em>institution</em>." },
-  { "date": "Jun 2026", "text": "Presented our work at <em>Conference</em>." }
+  { "date": "Feb 2027", "text": "Invited panelist, GeoAI Symposium panel on AI and disaster resilience, AAG Annual Meeting, New York (upcoming)." },
+  { "date": "Dec 2026", "text": "Lead convener and chair of a session at the AGU Annual Meeting, San Francisco." },
+  { "date": "Aug 2026", "text": "Teaching <em>ILS 250: Introduction to GIS</em> and <em>ILS 590: GIS Capstone</em> at Purdue this fall." },
+  { "date": "Aug 2026", "text": "Paper with undergraduate mentee Ethan Massey on spatiotemporal predictability of dengue presented at IGARSS 2026, Washington, D.C." },
+  { "date": "Jun 2026", "text": "Joined Purdue University as Clinical Assistant Professor in the Department of Information Studies." },
+  { "date": "Jun 2026", "text": "Invited talk at the UCGIS Cyber Training Workshop, College Park, MD, on AI-driven segmentation of LiDAR data in informal settlements." },
+  { "date": "2026", "text": "Named a Featured Mentor of the MIT Undergraduate Research Opportunities Program." },
+  { "date": "Oct 2025", "text": "Best Presentation Nomination Award at the 5th Digital Twin International Conference, Germany." },
+  { "date": "2025", "text": "Our paper on AI-driven segmentation of LiDAR data in informal settlements is published in <em>npj Urban Sustainability</em>." },
+  { "date": "2024", "text": "Received the Geospatial Excellence Award from the Geospatial Council of Australia and completed my Ph.D. at UNSW." }
 ]

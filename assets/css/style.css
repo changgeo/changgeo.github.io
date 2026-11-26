@@ -39,6 +39,8 @@ h2 {
   padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--rule);
 }
+h3 { font-size: 1.05rem; margin: 1.1rem 0 0.4rem; color: var(--muted); }
+h3:first-of-type { margin-top: 0; }
 section { margin-bottom: 2.75rem; }
 p { margin: 0 0 0.9rem; }
 .muted { color: var(--muted); font-size: 0.95rem; }

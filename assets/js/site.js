@@ -21,7 +21,8 @@
     root.innerHTML = years.map((y) => `
       <div class="pub-year">${esc(y)}</div>
       ${byYear[y].map((p) => {
-        const authors = p.authors.map((a) => a === me ? `<span class="me">${esc(a)}</span>` : esc(a)).join(", ");
+        // A trailing * marks the corresponding author; it stays visible but is ignored when matching the highlight name.
+        const authors = p.authors.map((a) => a.replace(/\*$/, "") === me ? `<span class="me">${esc(a)}</span>` : esc(a)).join(", ");
         const links = Object.entries(p.links || {}).map(([k, v]) => `<a href="${esc(v)}" target="_blank" rel="noopener">${esc(k)}</a>`).join("");
         const badge = p.badge ? `<span class="badge">${esc(p.badge)}</span>` : "";
         const thumb = p.thumb ? `<img class="pub-thumb" src="${esc(p.thumb)}" alt="">` : `<div class="pub-thumb"></div>`;
